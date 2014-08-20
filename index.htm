@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app> 
+  <head>
+  <title>Search form with AngualrJS</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
+    <script src="search.js"></script>
+  </head>
+  <body>
+    <div ng-controller="SearchCtrl">
+      <input type="number" ng-model="cep" placeholder="CEP" ng-blur="search()"/>
+      <!-- <button type="button" class="btn btn-default" ng-click="search()">Consultar CEP</button> -->
+      <pre ng-model="result">
+        {{result}}
+      </pre>
+     </div>
+  </body>
+
+</html> 
