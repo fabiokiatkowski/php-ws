@@ -7,6 +7,5 @@
     $response = curl_exec($curl);
     return $response;
   }
-
   $resp = curl_get_call("http://www.agenciamilagro.com.br/api/address/address/".$cep);
 ?>
