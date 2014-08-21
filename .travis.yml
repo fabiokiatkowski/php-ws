@@ -1,4 +1,8 @@
 language: php
 php:
   - 5.5
-script : ""
+script: ''
+deploy:
+  provider: heroku
+  api_key:
+    secure: ct/Zqo/qNEajdZBfLxbO5uDXeCLZcTnl4SxNvMQOphsgKcp3JNZ8GypXqAbmeKRwRnOVUBzwx1UhYLlOyHvlr6SZDtE3TRGKZK8TUvRrIbN5vw8f7mZDxqIRIVquSvcYFSD905Xf3sCVYmEBDGrbVEnUEExdbIjfH9/2/IPj2Rg=
